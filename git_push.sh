@@ -18,7 +18,7 @@ for FILE in "${CONFIG_FILES[@]}"; do
   REL_PATH=$(realpath --relative-to="$HOME" "$FILE")
   DEST="$DOTFILES_DIR/$REL_PATH"
   mkdir -p "$(dirname "$DEST")"
-  cp "$FILE" "$DEST"
+  cp -r "$FILE" "$DEST"
 done
 
 # Move into dotfiles repo

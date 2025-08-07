@@ -1,0 +1,12 @@
+location=middle
+show=drun
+width=600
+height=500
+always_parse_args=true
+allow_images=true
+show_all=true
+print_command=true
+layer=overlay
+insensitive=true
+prompt= Search | 검색 | Поиск | Sök
+hide_scroll=true
