@@ -11,7 +11,7 @@
         "backlight",
         "battery",
         "battery#bat2",
-        "network",
+        "network"
         //"sway/window"
     ],
     "modules-center": [

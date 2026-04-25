@@ -22,7 +22,7 @@ set $menu wofi --show drun
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
 #output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
-output * bg /home/ahmed/Pictures/Downloads/Lunix.png fill
+output * bg /home/ahmed/Pictures/Downloads/City_Japan.png fill
 
 #
 # Example configuration:
@@ -238,7 +238,6 @@ bindsym $mod+Shift+p exec python /home/ahmed/.config/sway/displaycontrol.py
     bindsym --locked XF86MonBrightnessUp exec brightnessctl set 5%+
     # Special key to take a screenshot with grim
     bindsym Print exec grim ~/Pictures/Screenshots/ss-$(date +'%Y-%m-%d_%H-%M-%S').png
-
 #
 # Status Bar:
 #
